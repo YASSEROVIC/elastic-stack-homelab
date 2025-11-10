@@ -1,0 +1,26 @@
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+*.p12
+.env
+secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Docker volumes
+data/
+logs/
+elasticsearch/
+kibana/
